@@ -1,5 +1,6 @@
 # Telegram-Keep-alive
 Telegram保活
+```
 一、简介
 TG上的某些机器人经常会有每日签到拿积分的活动，虽说每天上号点一点也不麻烦，但时间久了就经常会忘记。本教程将分享一种比较简单的方法，基于TG API以及Python的第三方包Telethon，部署到VPS上，每天定时上TG自动签到
 
@@ -17,7 +18,7 @@ TG上的某些机器人经常会有每日签到拿积分的活动，虽说每天
 
 4、开通完成后，保存api_id、api_hash两个值
 
-```
+
 四、安装Python与Telethon
 1、安装Python
 检查VPS上Python的版本信息，查询命令：python --version 或 python3 --version。若版本号小于3.5.0，则需安装新版Python
