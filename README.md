@@ -17,7 +17,7 @@ TG上的某些机器人经常会有每日签到拿积分的活动，虽说每天
 
 4、开通完成后，保存api_id、api_hash两个值
 
-
+```
 四、安装Python与Telethon
 1、安装Python
 检查VPS上Python的版本信息，查询命令：python --version 或 python3 --version。若版本号小于3.5.0，则需安装新版Python
@@ -35,12 +35,12 @@ tar -Jxvf Python-3.8.10.tar.xz
 cd Python-3.8.10
 ./configure
 make && make install
-复制代码
+
 
 
 2、安装Telethon
 pip3 install telethon
-复制代码
+
 
 
 五、自动签到脚本（Python版）
@@ -54,4 +54,5 @@ pip3 install telethon
 3、设置定时任务
 输入crontab -e进入定时任务编辑器，添加：（根据实际情况调整，如python路径、脚本文件存放路径等）
 0 6 * * * cd /root && /usr/local/bin/python3 tgsign.py
-复制代码
+
+```
